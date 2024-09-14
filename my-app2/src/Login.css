@@ -1,0 +1,48 @@
+/* Centering the login form */
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text */
+    background-color: black;
+    color: white;
+  }
+
+.box {
+    background-color: rgb(50, 50, 50);
+    width: 400px;
+    border-radius: 3%;
+    padding: 10px;
+
+}
+  
+  input, button {
+    margin: 6px; /* Space between elements */
+    
+    
+  }
+  input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 340px;
+    background-color:  rgb(59, 58, 58) ;
+    border-color: black;
+    color: white;
+    
+  }
+  input::placeholder {
+    color: white; 
+  }
+  
+  button {
+    padding: 16px; /* Button padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 370px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: medium;
+  }
+  
